@@ -1,0 +1,22 @@
+*****
+
+Deferred from the ChatGPT project - July 13 2026 
+ 
+- Important: Update create_project_structure.py to populate project files from reusable templates rather than creating every file empty.
+
+- About rushing the reporting part: Your instinct about the final-stage rush is worth carrying into Project 2: reserve a predefined “communication and shipping” 
+block before the technical work begins to feel finished. That way, the report is part of the project plan rather than the last obstacle after the interesting analysis is over.
+
+- Add reusable sections for duplicates, missingness, dtypes, and text columns.
+- Add duplicate-inspection helpers for exact duplicates, near-duplicates, and candidate key checks.
+- New utilities for cleaning or added to other scripts: inspect_text_place holder and inspect_encoding
+
+- A similar project could be done with WR google reviews --> look here https://www.kaggle.com/code/ashishkumarak/chatgpt-google-play-reviews-scraping/notebook
+
+- how about having an app, which after describing a dataset, tells me and explain why, what kind of tests or analysis or algorithms I can run (derived from the structure of the data). 
+
+- Smart bid app! 
+
+
+
+
