@@ -1,0 +1,59 @@
+# Operating systems
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+env/
+.conda/
+
+# Environment variables and local configuration
+.env
+.env/
+.envrc
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Editors
+.vscode/
+.idea/
+
+# Office documents
+*.doc
+*.docx
+*.dot
+*.dotx
+*.docm
+*.xls
+*.xlsx
+*.xlsm
+*.xltx
+*.xltm
+*.ppt
+*.pptx
+*.pptm
+*.potx
+*.potm
+
+# Data and generated artifacts
+01_data/raw/
+01_data/external/
+01_data/interim/
+06_reports/_build/
+07_deploy/artifacts/
+
+# Local project administration
+00_admin/meta_to_dos.md
+
+# Credentials
+.kaggle/
+kaggle.json
+
+# DVC cache, if DVC is introduced later
+.dvc/cache/

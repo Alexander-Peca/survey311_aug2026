@@ -1,0 +1,9 @@
+# Normalize text files in the repository
+* text=auto
+
+# Use consistent LF endings for project source files
+*.py text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf

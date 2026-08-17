@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "survey311"
+version = "0.1.0"
+description = "Exploratory analysis of NYC 311 resolution satisfaction survey responses"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "jupyterlab",
+    "ipykernel",
+    "openpyxl",
+]
+
+[tool.setuptools]
+package-dir = {"" = "03_src"}
+
+[tool.setuptools.packages.find]
+where = ["03_src"]
