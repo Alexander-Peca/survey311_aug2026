@@ -42,6 +42,7 @@ env/
 *.potm
 
 # Data and generated artifacts
+01_data/processed/
 01_data/raw/
 01_data/external/
 01_data/interim/
